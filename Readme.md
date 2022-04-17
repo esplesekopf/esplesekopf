@@ -1,4 +1,5 @@
 # EPSLeskopf
+![ ](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/IMG_8185.jpg)
 
 ### _Die Idee_
 Die Idee, welche hinter dem ESPLeskopf steckt, ist recht simpel erklärt. Ich brauchte einen IR Lesekopf, um meinen Smart Meter Iskra MT681 auszulesen. Dabei war es mir wichtig, eine Platine zu haben, welche alles beinhaltet und außer eine Stromversorgung nichts weiter benötigt. Entstanden ist eine Platine mit integriertem ESP8285, USB-Chipsatz, Sende und Empfangselektrik und der Möglichkeit alle am Markt verfügbares Smart Meter auslesen zu können.
