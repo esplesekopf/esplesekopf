@@ -16,6 +16,11 @@ Der USB Chip ermöglicht, neben dem Debug des ESP und den oben beschrieben Mögl
 
 Als Software kommt [`SMLReader`](https://github.com/mruettgers/SMLReader), [`ESPHome`](https://github.com/esphome), oder unserer Spezielle Version von [`Tasmota`](https://github.com/esplesekopf/Tasmota) zum Einsatz. 
 
+Eine weiter Funktion ist die Möglichkeit die PIN des eigenen Smart Meter an diesen zu senden. 
+Dies wird mit meiner kleinen Änderung in SMLReader und einer extra Website möglich. Hier kann der eigene PIN-Code eingeben werden. Dieser wird dann an den Zähler gesendet.
+Diese Funktion ersetzt die Taschenlampe welche bei den meisten Herstellern empfohlen um die PIN „einzugeben“. Das „Eingeben“ erfolgt durch Anblinken des Zählers mit der Taschenlampe. 
+Um die PIN-Eingabe auch zu ermöglichen, wenn eine andere Software als SMLReader läuft, befindet sich im Deckel des Gehäuses eine Tastwippe, mit welcher ebenfalls die IR Sendediode angesteuert werden kann. So kann man den ESPLesekopf auf den eigenen Zähler setzen und direkt über die Tastwippe die PIN eingeben.
+
 # Tasmota
 ## _Unterschiede_
 
