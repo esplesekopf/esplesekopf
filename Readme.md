@@ -26,3 +26,6 @@ Das Erstellen der Scripte ist nicht ganz trivial, aber unerlässlich für den Be
 | Auswahlfeld | Scripte |
 | ------ | ------ |
 | ![ESPLesekopf](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/IMG_9268.jpg) | ![ESPLesekopf](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/IMG_9269.jpg) |
+
+
+Wer Interesse an einem Lesekopf hat, kann mich gern unter esplesekopf@gmail.com kontaktieren.
