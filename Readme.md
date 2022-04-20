@@ -25,7 +25,7 @@ Um die PIN-Eingabe auch zu ermöglichen, wenn eine andere Software als SMLReader
 ## _Unterschiede_
 
 Was unterscheidet nun "unserer" Version von Tasmota zu anderen?
-Grundsätzlich muss man wissen, dass Tasmota nicht für das Auslesen von Smartmetern entwickelt wurde. Trotzdem wurde ein Modul für Tasmota entwickelt, welches die Verarbeitung der Daten 
+Grundsätzlich muss man wissen, dass Tasmota nicht für das Auslesen von Smartmetern entwickelt wurde. Trotzdem wurde ein Modul für Tasmota entwickelt, welches die Verarbeitung solcher SML oder OBIS Daten ermöglicht. Dazu ist es aber nötig, Tasmota über ein Script diverse Einstellungen und Informationen mitzugeben. Genau in diesen Scripten liegt für viele das Problem und unser Lösungsansatz.
 
 Das Erstellen der Scripte ist nicht ganz trivial, aber unerlässlich für den Betrieb. Also war die Idee geboren, funktionierende Scripte für die verschiedenen Zähler in Github zu pflegen. Über eine Auswahlfeld in der Scripting Webseite von Tasmota sind diese Scripte schnell zugänglich:
 | Auswahlfeld | Scripte |
