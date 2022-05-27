@@ -36,3 +36,21 @@ Das Erstellen der Scripte ist nicht ganz trivial, aber unerlässlich für den Be
 
 
 Wer Interesse an einem Lesekopf hat, kann mich gern unter esplesekopf@gmail.com kontaktieren.
+
+
+# weitere Ideen
+Nachdem der Lesekopf so gut läuft, steht nun die Weiterentwicklung an.
+
+Was bedeutet das? Schon früh wurde ich mit dem Problem konfrontiert, das es bei einigen Installationen Probleme mit dem WLAN-Empfang gibt. 
+
+Die Entwicklung geht nun dahin, dass es ein zusätzliches Gerät geben wird, welches auf einem ESP32 basiert und als wichtigstes Merkmal einen Netzwerkanschluss hat. Über diesen kann das Gerät per LAN-Patchkabel direkt mit dem Netzwerk verbunden werden. Da mir ein LAN Anschluss alleine nicht ausreichte, habe ich nach einer Platine gesucht die PoE unterstützt, also über das Netzwerkkabel auch mit Strom versorgt werden kann. 
+
+Das Gerät besitzt ein Hutschienengehäuse und wird wie eine Sicherung in die Unterverteilung eingebaut. Über 4 Anschlüsse können dann bis zu 4 Zähler oder beliebige andere Sensoren mit Tasmota ausgewertet werden.
+
+Die Platine des ESPLesekopf ist schon für dieses Zusätzliche Gerät ausgelegt. Statt des ESP wird dann ein Connector verlötet. Der ESP auf dem ESPLesekopf wird nicht mehr benötigt, weil der ESP32 des Zusatzgerätes viel mehr Möglichkeiten bietet.
+
+Hier ein Bild vom ersten Prototypen, noch ohne Externe WLAN Antenne.
+
+![ESPLesekopf32](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/ESPLesekopf32.JPG)
+
+
