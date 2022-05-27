@@ -15,6 +15,7 @@ Ebenso ist die Anbindung an einen Raspberry Pi oder PC denkbar (als USB Geräte)
 Der USB Chip ermöglicht, neben dem Debug des ESP und den oben beschrieben Möglichkeiten, das einfache beschreiben des ESP mit jeder beliebigen Firmware.
 
 Als Software kommt [`SMLReader`](https://github.com/mruettgers/SMLReader), [`ESPHome`](https://github.com/esphome), oder unserer Spezielle Version von [`Tasmota`](https://github.com/esplesekopf/Tasmota) zum Einsatz. 
+Dabei werden die Daten per MQTT an einen einstellbaren MQTT Broker gesendet. So können sie von allen möglichen Systemen verarbeitet werden.
 
 Eine weitere Funktion ist die Möglichkeit die PIN des eigenen Smart Meter an diesen zu senden. 
 Dies wird mit meiner kleinen Änderung in SMLReader und einer extra Website möglich. Hier kann der eigene PIN-Code eingeben werden. Dieser wird dann an den Zähler gesendet.
