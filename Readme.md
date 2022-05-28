@@ -35,7 +35,7 @@ Das Erstellen der Scripte ist nicht ganz trivial, aber unerlässlich für den Be
 
 
 
-Wer Interesse an einem Lesekopf hat, kann mich gern unter esplesekopf@gmail.com kontaktieren.
+Wer Interesse an einem Lesekopf hat, kann mich gern unter esplesekopf@gmail.com kontaktieren und bitte anschließend unbedingt den eigenen SPAM Ordner kontrollieren!
 
 
 # weitere Ideen
