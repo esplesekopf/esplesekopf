@@ -154,6 +154,6 @@ statt `+1,14,s,0,9600,Strom` z.B. `+1,14,s,0,9600,AUA` <br>
 und statt `1,77070100010800ff@1000,Gesamt Verbrauch,KWh,Total_in,3` z.B. `1,77070100010800ff@1000,Gesamt Verbrauch,KWh,REIN,3` <br>
 und statt `1,77070100100700ff@1,Aktueller Verbrauch,W,Power_cur,0` z.B. `1,77070100100700ff@1,Aktueller Verbrauch,W,RAUS,0` <br>
 
-müsste "jq" statt `.StatusSNS.Strom.Power_cur` dann `.StatusSNS.AUS.RAUS` lauten.
+müsste "jq" statt `.StatusSNS.Strom.Power_cur` dann `.StatusSNS.AUA.RAUS` lauten.
 
 Ich hoffe das war einigermaßen verständlich.
