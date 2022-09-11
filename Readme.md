@@ -26,6 +26,12 @@ Dies wird mit meiner kleinen Änderung in SMLReader und einer extra Website mög
 Diese Funktion ersetzt die Taschenlampe welche bei den meisten Herstellern empfohlen um die PIN „einzugeben“. Das „Eingeben“ erfolgt durch Anblinken des Zählers mit der Taschenlampe. 
 Um die PIN-Eingabe auch zu ermöglichen, wenn eine andere Software als SMLReader läuft, befindet sich im Deckel des Gehäuses eine Tastwippe, mit welcher ebenfalls die IR Sendediode angesteuert werden kann. So kann man den ESPLesekopf auf den eigenen Zähler setzen und direkt über die Tastwippe die PIN eingeben.
 
+Die Arbeit am Projekt geht weiter und im Sep 2022 arbeite ich an Version 0.4 der Platine. Durch den Bauteilmangel war ich gezwungen die verwendeten Taster durch andere Typen zu ersetzen. Da diese etwas mehr Platz einnehmen als die Alten, habe ich direkt das Layout der Platine angepasst. Dabei wurden auch einige Änderungen für die Nutzung von Akkus als Spannungsversorgung eingebracht. Der ESP kann nun in den DeepSleep versetzt werden und auch die USB-Chip kann komplett vom Strom genommen werden.\
+![ ](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/Version0.4.jpg)
+
+Außerdem habe ich mich um das Thema Gehäuse gekümmert. Dieses lasse ich nun im [SLS Druckverfahren](https://www.3dbavaria.com/3d-druck-technologien/sls-3d-druck/) fertigen. Die Qualität ist etwas ganz anderes:\
+![ ](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/NewCase.jpg)
+
 # Tasmota
 ## _Unterschiede_
 
