@@ -1,18 +1,22 @@
 # EPSLeskopf
 ![ ](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/IMG_8185.jpg)
 
+### Kontakt
+[per Mail](mailto:esplesekopf@gmail.com)\
+[auf Twitter](https://twitter.com/th3_s4int)
+
 ### _Die Idee_
-Die Idee, welche hinter dem ESPLeskopf steckt, ist recht simpel erklärt. Ich wollte einen IR Lesekopf, um meinen Smart Meter Iskra MT681 auszulesen. Dabei war es mir wichtig, eine Platine zu haben, welche alles beinhaltet und außer eine Stromversorgung nichts weiter benötigt. Entstanden ist eine Platine mit integriertem ESP8285, USB-Chipsatz, IR Sende und IR Empfangselektrik und der Möglichkeit alle am Markt verfügbares Smart Meter auslesen zu können. Während die erste Version fertig gestellt war und durch ein Video auf Matthias Kleine Haus-Automatisierungs Youtube Kanal [`Haus-Automatisierung`](https://youtu.be/s6qQs4FN9B0) bekannt wurde, waren schon Ideen für Version 0.2 in Planung. Bei dieser Version ging es darum, nicht nur einen ESP auf der Platine verbaut zu haben, sondern die Platine selbst auch als USB Gerät nutzen zu könnnen. Und wenn USB schon einmal vorhanden ist, warum nicht auch gleich zum Programmieren des ESP nutzbar machen? Das Projekt war schon längst nicht mehr ein reines Bastler-Projekt, sondern es sollte nun Massentauglich werden.
+Die Idee, welche hinter dem ESPLeskopf steckt, ist recht simpel erklärt. Ich wollte einen IR Lesekopf, um meinen Smart Meter Iskra MT681 auszulesen. Dabei war es mir wichtig, eine Platine zu haben, welche alles beinhaltet und außer eine Stromversorgung nichts weiter benötigt. Entstanden ist eine Platine mit integriertem ESP8285, USB-Chipsatz, IR Sende und IR Empfangselektronik und der Möglichkeit alle am Markt verfügbares Smart Meter auslesen zu können. Während die erste Version fertig gestellt war und durch ein Video auf Matthias Kleine Haus-Automatisierungs Youtube Kanal [`Haus-Automatisierung`](https://youtu.be/s6qQs4FN9B0) bekannt wurde, waren schon Ideen für Version 0.2 in Planung. Bei dieser Version ging es darum, nicht nur einen ESP auf der Platine verbaut zu haben, sondern die Platine selbst auch als USB Gerät nutzen zu können. Und wenn USB schon einmal vorhanden ist, warum nicht auch gleich zum Programmieren des ESP nutzbar machen? Das Projekt war schon längst nicht mehr ein reines Bastler-Projekt, sondern es sollte nun Massentauglich werden.
 
 ### _Features_
 Durch eine Jumperleiste kann die IR Sende und IR Empfangselektrik flexibel genutzt werden.
-Entweder wird diese an zwei definierte GPIO's des ESP geführt oder an die Serielle Hardwareschnittstelle des ESP. Darüber hinaus kann der Lesekopf auch als USB Gerät genutzt werden, also kann die IR Sende und IR Empfangselektronik auch an den USB Chip geführt werden. Zu Test und Debug Zwecken kann auch eine Kreuzbeschaltung durchgeführt werden. So könnte die IR Sendeelektronik zum ESP geführt werden und die IR Empfangselektronik an den USP Chip. Einfach ausgedrückt: Der USB Chip ist nicht fest mit dem ESP Verbunden und auch nicht die IR Elektronik. Jede(r) kann entscheiden wie die Beschaltung erfolgen soll.
+Entweder wird diese an zwei definierte GPIO's des ESP geführt oder an die Serielle Hardwareschnittstelle des ESP. Darüber hinaus kann der Lesekopf auch als USB Gerät genutzt werden, also kann die IR Sende und IR Empfangselektronik auch an den USB Chip geführt werden. Zu Test und Debug Zwecken kann auch eine Kreuzbeschaltung durchgeführt werden. So könnte die IR Sendeelektronik zum ESP geführt werden und die IR Empfangselektronik an den USP Chip oder umgekehrt. Einfach ausgedrückt: Der USB Chip ist nicht fest mit dem ESP Verbunden und auch nicht die IR Elektronik. Jede(r) kann entscheiden, wie die Beschaltung erfolgen soll.
 
 Durch diese Freiheit, können auch Smartmeter ausgelesen werden, die z.B. mit Initialisierungssequenzen arbeiten und während der Übertragung ihre Baudrate ändern, da diese zwingend die Serielle Hardwareschnittstelle benötigen.
 
 Ebenso ist die Anbindung an einen Raspberry Pi oder PC denkbar (als USB Geräte).
 
-Der USB Chip ermöglicht, neben dem Debug des ESP und den oben beschrieben Möglichkeiten, das einfache beschreiben des ESP mit jeder beliebigen Firmware.
+Der USB Chip ermöglicht, neben dem Debug des ESP und die oben beschrieben Möglichkeiten, das einfachen beschreiben des ESP mit jeder beliebigen Firmware.
 
 Als Software kommt [`SMLReader`](https://github.com/mruettgers/SMLReader), [`ESPHome`](https://github.com/esphome), oder unserer Spezielle Version von [`Tasmota`](https://github.com/esplesekopf/Tasmota) zum Einsatz. 
 Dabei werden die Daten per MQTT an einen einstellbaren MQTT Broker gesendet. So können sie von allen möglichen Systemen verarbeitet werden.
