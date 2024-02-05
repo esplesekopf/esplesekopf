@@ -3,7 +3,7 @@
 
 ### Kontakt
 [per Mail](mailto:esplesekopf@gmail.com)\
-[auf Twitter](https://twitter.com/th3_s4int)
+[auf Twitter](https://twitter.com/th3_s4int)\
 Fertige Leseköpfe sind erhältlich.
 
 ### _Die Idee_
