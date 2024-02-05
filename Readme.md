@@ -1,5 +1,5 @@
 # ESPLeskopf
-![ ](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/IMG_8185.jpg)
+![ ](https://github.com/esplesekopf/esplesekopf/blob/main/PIC/IMG_4228.jpg)
 
 ### Kontakt
 [per Mail](mailto:esplesekopf@gmail.com)\
